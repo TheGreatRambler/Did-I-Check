@@ -5,8 +5,8 @@ found [here](https://blogs.msdn.microsoft.com/micahel/2004/07/07/did-i-remember-
 
 Accessibility
 
-Check the following MSAA property settings for every control on every dialog, command bar, and other UI feature: NAME, ROLE, STATE, VALUE, KBSHORTCUT, and DEFACTION
-Change values in edit boxes and verify those values are reflected in the MSAA property set
+- Check the following MSAA property settings for every control on every dialog, command bar, and other UI feature: NAME, ROLE, STATE, VALUE, KBSHORTCUT, and DEFACTION
+- Change values in edit boxes and verify those values are reflected in the MSAA property set
 Run in high contrast mode
 Run in large font mode
 Run with Sound Sentry
