@@ -1,9 +1,9 @@
-# Did-I-Check
-The ultimate did I check list for programming
+# Did I Check
+The ultimate -did I check- list for programming
 
 found [here](https://blogs.msdn.microsoft.com/micahel/2004/07/07/did-i-remember-to/).
 
-Accessibility
+## Accessibility
 
 - Check the following MSAA property settings for every control on every dialog, command bar, and other UI feature: NAME, ROLE, STATE, VALUE, KBSHORTCUT, and DEFACTION
 - Change values in edit boxes and verify those values are reflected in the MSAA property set
@@ -18,7 +18,8 @@ Accessibility
 - Verify shortcut keys exist for each control
 - Verify that each actionable color item can have its color customized (e.g., red squiggly lines)
 - Verify that all flashing objects flash to the system cursor blink rate
-Alerts
+
+## Alerts
 
 - Verify each alert identifies the problem first and then a solution
 - Verify alert text is not unnecessarily long (i.e., more than 3 lines)
@@ -34,14 +35,17 @@ Alerts
 - Verify the correct icon (Information, Warning, Critical) is displayed on the left hand side
 - Verify the title bar contains the name of the product (e.g., "Microsoft Bob")
 - Verify the buttons are centered below the message text
-Anti-Virus
+
+## Anti-Virus
 
 - Test with and without anti-virus software installed
-Application Interoperability 
+
+## Application Interoperability 
 
 - Verify clipboard operations (i.e., cut/copy/paste) between this and other features, between this and other applications
 - Verify drag and drop operations between this and other features, between this and other applications
-Boundary Cases 
+
+## Boundary Cases 
 
 - Text length (e.g., of a list entry, in a field)
 - Extra-long filenames
@@ -52,19 +56,21 @@ Boundary Cases
 - 4096 x 4096 pixel image
 - Maximum number of objects (e.g., shapes, columns)
 - Maximum and minimum values (e.g., for margins, values in edit boxes)
-CPU
+
+## CPU
 
 - Multiple processors
 - Multiple vendors CPU's (e.g., Intel, AMD)
 - Laptop configurations
-Dialogs
+
+## Dialogs
 
 - Verify default edit focus and default button focus is correct
 - Verify tab order
 - Verify dialog and terms used therein are consistent with those in the rest of the application
 - Verify ninched controls are shaded
 - Verify mutually exclusive controls work correctly
-Verify any samples in the dialog reflect the actual formatting in the document
+- Verify any samples in the dialog reflect the actual formatting in the document
 - Verify all commands that launch dialogs (e.g., F12 to Save As)
 - Verify every control has a short-cut letter, that all short-cuts work, and that every action can be executed via the keyboard
 - Verify every accelerator is unique within the dialog
@@ -85,7 +91,8 @@ Verify any samples in the dialog reflect the actual formatting in the document
 - Verify the dialog is sticky (or not, as appropriate); i.e., it displays in same position as when last dismissed
 - Verify settings in the dialg are saved (or not, as appropriate) the next time the dialog is invoked
 - Verify the dialog is sized correctly in relation to its controls
-File Names
+
+## File Names
 
 - With and without the complete path
 - With and without the extension
@@ -95,13 +102,15 @@ File Names
 - International characters
 - Invalid characters (e.g., '?')
 - Invalid filenames (e.g., COM1, COM1.txt)
-Hardware
+
+## Hardware
 
 - Tablet PC
 - Removable Media
 - Pocket PC
 - Run with Power Management settings enabled and disabled
-International Sufficiency 
+
+## International Sufficiency 
 
 - Look for geo-political sensitivity issues (e.g., borders may be disputed between neighboring countries)
 - Run with Complex scripts and Right to Left (RTL) support
@@ -114,7 +123,8 @@ International Sufficiency
 - Verify the executable and other core files function correctly on any code page and any supported OS language
 - Verify the correct sorting order is used.
 - Verify user locale or system locale are used as appropriate.
-Localization 
+
+## Localization 
 
 - Look for geo-political sensitivity issues (e.g., borders may be disputed between neighboring countries)
 - Verify you know which languages to test
@@ -127,7 +137,8 @@ Localization
 - Verify hot keys are localzied
 - Verify each accelerator is unique and consistent
 - Verify each hot key is unique and consistent
-Menus and Command Bars 
+
+## Menus and Command Bars 
 
 - Verify all commands work from menus and command bars
 - Verify keyboard shortcuts are correct on all platforms
@@ -138,7 +149,8 @@ Menus and Command Bars
 - Verify voice command works correctly
 - Verify menu/command bar item context menus work correctly
 - Verify status bar text is correct and not truncated
-Miscellaneous -- Have you
+
+## Miscellaneous -- Have you
 
 - Completed the spec inspection has been completed
 - Discussed the feature design and target users with your Program Manager
@@ -149,7 +161,8 @@ Miscellaneous -- Have you
 - Discussed the feature/application with Product Support
 - Perused bugs and other feedback from beta releases
 - Considered backward compatibility problems resulting from something that has been moved or modified changing default values or - - breaking something in a previous version
-Networking
+
+## Networking
 
 - Verify correct handling of different levels of user access and permissions
 - Verify correct handling of loss of network access
@@ -158,7 +171,8 @@ Networking
 - Verify correct handling of file access via UNC
 - Verify correct handling of Print Preview when the network printer is disconnected
 - Verify correct handling of long file name and long-file-name-to-short-file-name conversion correctly
-Open/Save
+
+## Open/Save
 
 - Open/Save from/to Sharepoint Document Library
 - Context menu | Open, New, Print
@@ -177,7 +191,8 @@ Open/Save
 - Save when no documents are dirty, one document is dirty, multiple documents are dirty
 - Save when multiple documents are dirty but the user chooses to not save some of them
 - Save As
-Out Of Memory (OOM)/Stress Testing 
+
+## Out Of Memory (OOM)/Stress Testing 
 
 - Low memory
 - Low disk space
@@ -194,7 +209,8 @@ Out Of Memory (OOM)/Stress Testing
 - Microsoft and non-Microsoft Input Method Editors (IMEs)
 - Unaware application support enabled and disabled (Windows SP1 or later only)
 - Handwriting/speech/IME on Tablet PC Windows
-Performance
+
+## Performance
 
 - Verify perf testing has been done
 - Verify perf targets exist and are being met
@@ -203,10 +219,12 @@ Performance
 - Verify performance optimizations actually have the intended effect
 - Compare performance with previous versions
 - Compare performance with similar applications
-Platforms
+
+## Platforms
 
 - Run on every supported platform; at a minimum, probably, Win XP, Win Vista, Win 7, Win 10, Mac, Linux
-Printing
+
+## Printing
 
 - Verify changing orientation works properly
 - Verify printing to a file works properly
@@ -218,12 +236,14 @@ Printing
 - Verify line or page numbering works properly (if supported)
 - Print to both local and network printers
 - Print to Adobe Acrobat to create PDF files
-Registry / Configuration File Settings
+
+## Registry / Configuration File Settings
 
 - Verify settings that should modify behavior do
 - Verify the appropriate settings are available in policy templates
 - Verify settings roam with the user
-Security 
+
+## Security 
 
 - Consider what buffer overrun attacks might be possible
 - Consider what denial of service attacks might be possible
@@ -238,7 +258,8 @@ Security
 - Verify user-specified input is handled correctly (e.g., are SQL injection attacks possible)
 - Verify every input is bounds-checked
 - Verify user privacy is not violated (e.g., file paths are stripped, user aliases and other identifying data can be removed)
-Setup - General
+
+## Setup - General
 
 - Consider what problems could appear when installing as Minimum, Typical, Install on First Use, Run from Network, Custom, and Not Available.
 - Verify registry items are created/modified appropriately, and that other registry items are not created or modified.
@@ -250,30 +271,35 @@ Setup - General
 - Verify mass deployment (e.g., via Systems Management Server) works correctly
 - Verify the application works correctly on Terminal Server
 - Verify the application works correctly on Virtual PC and Virtual Server
-Setup - Local Caching 
+
+## Setup - Local Caching 
 
 - Verify the correct CABs are cached
 - Verify any files shared with another feature or appliation are handled correctly by install/uninstall/reinstall
 - Verify multiple SKUs share the cache correctly
 - Verify deleting a CAB from the cache causes a reinstall and the CAB is recached
-Setup - MSI Authoring
+
+## Setup - MSI Authoring
 
 - Verify the MSI includes the correct components, files, and registry settings
 - Verify custom actions, conditions, shortcut creation, and other special authoring works correctly
 - Verify the default installation type (e.g., Typical, Minimum) is correct
 - Verify the correct install states are available
 - Verify the application works correctly in all possible install states
-Setup - Multi-User
+
+## Setup - Multi-User
 
 - Verify the application works correctly for User2 after User1 installs it
 - Verify per-user features must be installed by User2 even after User1 has installed them
 - Verify User2's per-user settings do not change when User1 changed them
-Setup - Network Setup 
+
+## Setup - Network Setup 
 
 - Does your feature uninstall cleanly when installed from the network (Post-Admin install)
 - Verify the correct files are installed when the application is installed via Run From Network
 - Verify the application can be uninstalled
-Special Modes and States 
+
+## Special Modes and States 
 
 - Safe Mode (e.g., booting with /safe to disable some settings) works correctly (if supported)
 - Zoomed (e.g., 100%, 25%, 200%)
@@ -289,12 +315,14 @@ Special Modes and States
 - Autosave on
 - System background color changed
 - Multiple selection
-Undo/Redo 
+
+## Undo/Redo 
 
 - Edit/Undo, Edit/Redo
 - Multi-level Undo/Redo
 - Menu command text strings
-Upgrade and Migration - Application Upgrade
+
+## Upgrade and Migration - Application Upgrade
 
 - Verify upgrading over a previous version replaces appropriate files but no others
 - Verify side-by-side installs work correctly
@@ -303,57 +331,62 @@ Upgrade and Migration - Application Upgrade
 - Verify previously existing settings and files are modified correctly by an upgrade
 - Verify the application functions correctly when the previous and/or new version are set to Run From Network
 - Verify any features or applications dependent on files or functionality affected by the upgrade work correctly after the upgrade
-Upgrade and Migration - OS Upgrade 
 
-Verify upgrading over a previous version replaces appropriate files but no others
-Verify the application works correctly after the upgrade
-Verify any features dependent on OS files or functionality work correctly after the upgrade
-Verify the application works correctly after upgrading both the application and the OS
-User Assistance/Help
+## Upgrade and Migration - OS Upgrade 
 
-Verify each error message is accurate, easily understood, and actionable
-Verify input validation error messages refer to the correct problem
-Verify the tutorial is correct (e.g., the UI it depicts matches the actual UI, the steps it takes are correct)
-Verify all help topics have been reviewed for technical accuracy
-Verify all context sensitive help is correct
-Video
+- Verify upgrading over a previous version replaces appropriate files but no others
+- Verify the application works correctly after the upgrade
+- Verify any features dependent on OS files or functionality work correctly after the upgrade
+- Verify the application works correctly after upgrading both the application and the OS
+- User Assistance/Help
+- Verify each error message is accurate, easily understood, and actionable
+- Verify input validation error messages refer to the correct problem
+- Verify the tutorial is correct (e.g., the UI it depicts matches the actual UI, the steps it takes are correct)
+- Verify all help topics have been reviewed for technical accuracy
+- Verify all context sensitive help is correct
 
-Multi-monitor environments (two, three and four monitors)
-Video resolutions (1024x768 through 1600x1200)
-color depths (8-, 16-, 24-, and 32-bit)
-Color themes
-Window Interactions 
+## Video
 
-IME
-Z-ordering, especially Help on top
-Modal, modeless dialogs
-Window and dialog focus
-Window size after a restore-from-minimize, restore-from-maximize
-Window size on first launch, on subsequent launches
-Window size after a manual resize
-Multiple windows (MDI)
-Multiple instances of the application
-Arrange Vertical, Horizontal, All, Tiled, Cascade (both MDI children and application windows on the Desktop)
-Windows Logo Requirements
+- Multi-monitor environments (two, three and four monitors)
+- Video resolutions (1024x768 through 1600x1200)
+- color depths (8-, 16-, 24-, and 32-bit)
+- Color themes
+- Window Interactions 
 
-Run all applicable Application Verifier tests (especially check that NULL DACLs are not used or created)
-Install and run under Application Verifier with the “High Version Lie” test enabled
-Install and run with Fast User Switching enabled, while Fast User Switched
-Install and run on Windows 2000, then upgrade to Windows XP
-Install and run in a highly secure Windows environment (“%system%securitytemplateshisecwsinf)
-Run as a limited user
-Verify temp files are placed properly
-Verify System File Protection files are not overwritten
-Verify that My Documents is the initial default location for Open and Save
-Verify all UI inherits Windows XP themes
-Verify files outside of the application folder are associated with a particular file type (i.e., double-clicking does the right thing)
-Verify all executable components have a (correct) digital signature
-Verify all UI is legible and accessible at 133DPI (high DPI)
-Year 2000 
 
-Verify dates entered with a two-digit year are interpreted as:
+## IME
+- Z-ordering, especially Help on top
+- Modal, modeless dialogs
+- Window and dialog focus
+- Window size after a restore-from-minimize, restore-from-maximize
+- Window size on first launch, on subsequent launches
+- Window size after a manual resize
+- Multiple windows (MDI)
+- Multiple instances of the application
+- Arrange Vertical, Horizontal, All, Tiled, Cascade (both MDI children and application windows on the Desktop)
+- Windows Logo Requirements
+
+
+## Other
+- Run all applicable Application Verifier tests (especially check that NULL DACLs are not used or created)
+- Install and run under Application Verifier with the “High Version Lie” test enabled
+- Install and run with Fast User Switching enabled, while Fast User Switched
+- Install and run on Windows 2000, then upgrade to Windows XP
+- Install and run in a highly secure Windows environment (“%system%securitytemplateshisecwsinf)
+- Run as a limited user
+- Verify temp files are placed properly
+- Verify System File Protection files are not overwritten
+- Verify that My Documents is the initial default location for Open and Save
+- Verify all UI inherits Windows XP themes
+- Verify files outside of the application folder are associated with a particular file type (i.e., double-clicking does the right thing)
+- Verify all executable components have a (correct) digital signature
+- Verify all UI is legible and accessible at 133DPI (high DPI)
+
+## Year 2000 
+
+- Verify dates entered with a two-digit year are interpreted as:
  1/1/00 through 12/31/29 are interpreted as 1/1/2000 through 12/31/2029
  1/1/30 through 12/31/99 are interpreted as 1/1/1930 through 12/31/1999
-Verify dates on leap years are correctly interpreted (e.g., 2/29/2000, 2/29/2004)
-Verify dates at least to 2035 are supported
+- Verify dates on leap years are correctly interpreted (e.g., 2/29/2000, 2/29/2004)
+- Verify dates at least to 2035 are supported
  
