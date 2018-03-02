@@ -1,7 +1,7 @@
 # Did I Check
 The ultimate _did I check_ list for programming
 
-found [here](https://blogs.msdn.microsoft.com/micahel/2004/07/07/did-i-remember-to/).
+found [here](https://blogs.msdn.microsoft.com/micahel/2004/07/07/did-i-remember-to/). This is not my document; it is property of Michael Hunter. The full version can be found on [his website](http://www.thebraidytester.com/downloads/YouAreNotDoneYet.pdf).
 
 ## Accessibility
 
