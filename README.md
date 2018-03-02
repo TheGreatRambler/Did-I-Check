@@ -1,5 +1,5 @@
 # Did I Check
-The ultimate -did I check- list for programming
+The ultimate _did I check_ list for programming
 
 found [here](https://blogs.msdn.microsoft.com/micahel/2004/07/07/did-i-remember-to/).
 
